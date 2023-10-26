@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angeletti's Restaurant Menu</title>
+    <meta name="title" content="Angeletti's Restaurant Menu">
+    <meta name="description" content="Questa e' la pagina dell Angeletti's Restaurant Menu fatta da Luca Angeletti">
+    <link rel="shortcut icon" href="./assets/images/icon.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+    
+</head>
+
+<body>
+
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">Angeletti</p>
+    </div>
+
+    <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">
+                    Via Giuseppe Di Vittorio, Terni 05100, Umbria, IT
+                </span>
+            </address>
+
+            <div class="separator"></div>
+
+            <div class="topbar-item item-2">
+                <div class="icon">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">Tutti i giorni: Dalle 12:00 alle 00:00</span>
+            </div>
+
+            <a href="tel:0744381898" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">0744 3818 98</span>
+            </a>
+                
+            <div class="separator"></div>
+
+            <a href="mailto:luca.angeletti@ittterni.org" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">luca.angeletti@ittterni.org</span>
+            </a>
+        </div>
+    </div>
+
+    <header class="header" data-header>
+
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="160" height="50" alt="Angeletti - Home">
+            </a>
+            
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo.png" width="160" height="50" alt="Angeletti - Home">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <h1>ㅤㅤ</h1>
+
+                    <li class="navbar-item">
+
+                        <a href="index.html" class="navbar-link hover-underline active">
+
+                            <div class="separator"></div>
+
+                            <span class="span">Home</span>
+                            
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+
+                        <a href="index_menu.html" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">MENU</span>
+                            
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+
+                        <a href="index_chisiamo.html" class="navbar-link hover-underline">
+
+                            <div class="separator"></div>
+
+                            <span class="span">CHI SIAMO?</span>
+                            
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Vieni a trovarci!</p>
+
+                    <address class="body-4">
+
+                        Via Giuseppe Di Vittorio, Terni 05100, <br>
+                        Umbria, IT
+
+                    </address>
+
+                    <p class="body-4 navbar-text">Aperto: 13:00 - 00:00</p>
+
+                    <a href="mailto:luca.angeletti@ittterni.org" class="body-4 sidebar-link">email prenotazione: luca.angeletti@ittterni.org</a>
+
+                    <div class="separator"></div>
+
+                    <p class="contact-label">Richiesta di Prenotazione </p>
+
+                    <a href="tel:+393394694817" class="body-1 contact-number hover-underline">
+                        +39-339-464-4817
+                        </a>
+                    
+                </div>
+
+            </nav>
+
+            <a href="#res" class="btn btn-secondary">
+                <span class="text text-1">Trova Un Tavolo</span>
+
+                <span class="text text-2" aria-hidden="true">Trova Un Tavolo</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay " data-nav-toggler data-overlay></div>
+            
+        </div>
+
+    </header>
+
+    <main>
+        <article>
+    
+          <!--HER0-->
+    
+          <section class="hero text-center" aria-label="home" id="home">
+    
+            <ul class="hero-slider" data-hero-slider>
+    
+              <li class="slider-item active" data-hero-slider-item>
+    
+                <div class="slider-bg">
+                  <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+                </div>
+    
+                <p class="label-2 section-subtitle slider-reveal">Gusto Autentico e Pulizia esemplare</p>
+    
+                <h1 class="display-1 hero-title slider-reveal">
+                    Per l'amore  <br>
+                    della buona cucina
+                </h1>
+    
+                <p class="body-2 hero-text slider-reveal">
+                    <i>Regala alla tua famiglia un'esperienza culinaria indimenticabile...</i>
+                </p>
+    
+                <a href="index_menu.html" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">Esplora i nostri menu</span>
+    
+                  <span class="text text-2" aria-hidden="true">Esplora i nostri menu</span>
+                </a>
+    
+              </li>
+    
+              <li class="slider-item" data-hero-slider-item>
+    
+                <div class="slider-bg">
+                  <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+                </div>
+    
+                <p class="label-2 section-subtitle slider-reveal">Un'esperienza infinita</p>
+    
+                <h1 class="display-1 hero-title slider-reveal">
+                    Sapori ispirati<br>
+                    alle stagioni 
+                </h1>
+    
+                <p class="body-2 hero-text slider-reveal">
+                   <i>Regala alla tua famiglia un'esperienza culinaria indimenticabile...</i>
+                </p>
+    
+                <a href="#" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">Esplora i nostri menu</span>
+    
+                  <span class="text text-2" aria-hidden="true">Esplora i nostri menu</span>
+                </a>
+    
+              </li>
+    
+              <li class="slider-item" data-hero-slider-item>
+    
+                <div class="slider-bg">
+                  <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+                </div>
+    
+                <p class="label-2 section-subtitle slider-reveal">stupefacente e delizioso</p>
+    
+                <h1 class="display-1 hero-title slider-reveal">
+                    Dove ognuno<br>
+                    racconta una storia 
+                </h1>
+    
+                <p class="body-2 hero-text slider-reveal">
+                    <i>Regala alla tua famiglia un'esperienza culinaria indimenticabile...</i>
+                </p>
+    
+                <a href="#" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">Esplora i nostri menu</span>
+    
+                  <span class="text text-2" aria-hidden="true">Esplora i nostri menu</span>
+                </a>
+    
+              </li>
+    
+            </ul>
+    
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+              <ion-icon name="chevron-back"></ion-icon>
+            </button>
+    
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+              <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+
+          </section>
+    
+          <!--SERVICE-->
+    
+          <section id="service" class="section service bg-black-10 text-center" aria-label="service">
+            <div class="container">
+    
+              <p class="section-subtitle label-2">i MIGLIORI MENU</p>
+    
+              <h2 class="headline-1 section-title">Vi offriamo il massimo.</h2>
+    
+              <p class="section-text">
+                <i>"Ti offriamo i più deliziosi piatti che incanteranno il tuo palato. Clicca su 'guarda il menu' per scoprire tutte le nostre prelibatezze."</i> 
+              </p>
+    
+              <ul class="grid-list">
+    
+                <li>
+                  <div class="service-card">
+    
+                    <a href="#service"  class="has-before hover:shine">
+                      <figure class="card-banner  img-holder" style="--width: 285; --height: 336;">
+                        <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                          class="img-cover">
+                      </figure>
+                    </a>
+    
+                    <div class="card-content">
+    
+                      <h3 class="title-4 card-title">
+                        <a href="#service" style="pointer-events: none;">Contorni</a>
+                      </h3>
+    
+                      <a href="index_menu.html" class="btn-text hover-underline label-2">GUARDA IL MENU</a>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="service-card">
+    
+                    <a href="#service" class="has-before hover:shine">
+                      <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                        <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                          class="img-cover">
+                      </figure>
+                    </a>
+    
+                    <div class="card-content">
+    
+                      <h3 class="title-4 card-title">
+                        <a href="#service" style="pointer-events: none;">Antipasti</a>
+                      </h3>
+    
+                      <a href="index_menu.html" class="btn-text hover-underline label-2">GUARDA IL MENU</a>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="service-card">
+    
+                    <a href="#service" class="has-before hover:shine">
+                      <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                        <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                          class="img-cover">
+                      </figure>
+                    </a>
+    
+                    <div class="card-content">
+    
+                      <h3 class="title-4 card-title">
+                        <a href="#service" style="pointer-events: none;">Drinks</a>
+                      </h3>
+    
+                      <a href="index_menu.html" class="btn-text hover-underline label-2">GUARDA IL MENU</a>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+              <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+                class="shape shape-1 move-anim">
+              <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+                class="shape shape-2 move-anim">
+    
+            </div>
+          </section>
+    
+          <!--SPECIAL DISH-->
+    
+          <section class="special-dish text-center" aria-labelledby="dish-label">
+    
+            <div class="special-dish-banner">
+              <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+                class="img-cover">
+            </div>
+    
+            <div class="special-dish-content bg-black-10">
+              <div class="container">
+    
+                <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+    
+                <p class="section-subtitle label-2">PIATTO SPECIALE</p>
+    
+                <h2 class="headline-1 section-title">BUCATINI ALL'AMATRICIANA</h2>
+    
+                <p class="section-text">
+                  Il nostro chef ha creato una versione raffinata e artigianale del classico piatto romano "Amatriciana", celebre per la sua semplicità e robusto sapore. 
+                  La pasta artigianale, rigorosamente fatta in casa con semola di grano duro di altissima qualità, è abbinata ad un sugo ricco e sapido ottenuto da pomodori San Marzano maturati al sole e guanciale di maiale stagionato perfezionato con una tecnica di cottura lenta e attenta.
+                  Una leggera nota piccante, ottenuta con peperoncino rosso fresco selezionato, aggiunge un'esplosione di sapore che delizia il palato senza mai sopraffare gli altri sapori. Il tutto è coronato da una leggera spolverata di pecorino romano DOP, 
+                  che conferisce una nota di sapidità e un tocco di complessità al piatto.
+                </p>
+    
+                <div class="wrapper">
+                  <del class="del body-3">€45.00</del>
+    
+                  <span class="span body-1">€30.00</span>
+                </div>
+    
+                <a href="index_menu.html" class="btn btn-primary">
+                  <span class="text text-1">GUARDA I MENU</span>
+    
+                  <span class="text text-2" aria-hidden="true">GUARDA I MENU</span>
+                </a>
+    
+              </div>
+            </div>
+    
+            <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+    
+            <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+    
+          </section>
+
+           <!--FEATURES-->
+    
+           <section style="padding-top: 300px; padding-bottom: 300px;" class="section features text-center" aria-label="features">
+            <div class="container">
+    
+              <p class="section-subtitle label-2">PERCHE SCEGLIERE NOI</p>
+    
+              <h2 class="headline-1 section-title">I NOSTRI PUNTI DI FORZA</h2>
+    
+              <ul class="grid-list">
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title-2 card-title">Cucina di Alta Qualità</h3>
+    
+                    <p class="label-1 card-text"><i>Esperienza culinaria raffinata e impeccabile, garantendo standard elevati di igiene e freschezza.</p></i>
+    
+                  </div>
+                </li>
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title-2 card-title">Atmosfera Rinvigorente</h3>
+    
+                    <p class="label-1 card-text"><i>Un'oasi di tranquillità e freschezza, dove gli ospiti possono godere di una raffinata cucina in un ambiente rilassante e rigenerante.</p></i>
+    
+                  </div>
+                </li>
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title-2 card-title">Chef Esperti</h3>
+    
+                    <p class="label-1 card-text">Una squadra di talentuosi e creativi maestri culinari che trasformano ingredienti freschi in piatti deliziosi e innovativi, offrendo un'esperienza culinaria straordinaria.</p>
+    
+                  </div>
+                </li>
+    
+                <li class="feature-item">
+                  <div class="feature-card">
+    
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+    
+                    <h3 class="title-2 card-title">Party & Eventi</h3>
+    
+                    <p class="label-1 card-text"> Il nostro ristorante è anche il luogo ideale per celebrare eventi speciali grazie alla nostra competente equipe di organizzazione eventi.</p>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+              <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+                class="shape shape-1">
+    
+              <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+                class="shape shape-2">
+    
+            </div>
+          </section>
+  
+          <!--TESTIMONIALS-->
+    
+          <section class="section testi text-center has-bg-image"
+            style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+            <div class="container">
+    
+              <div class="quote">”</div>
+    
+              <p class="headline-2 testi-text">
+                Volevo ringraziare tutto lo staff per avermi invitato a quella straordinaria cena l'altra sera.  
+                Il cibo era semplicemente straordinario e ogni portata sembrava una sinfonia di sapori deliziosi. 
+              </p>
+    
+              <div class="wrapper">
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <div class="separator"></div>
+              </div>
+    
+              <div class="profile">
+                <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+                  class="img">
+    
+                <p class="label-2 profile-name">Marco ROSSI</p>
+              </div>
+    
+            </div>
+          </section>
+    
+    
+          <!--RESERVATION-->
+    
+          <section id="res" class="reservation">
+            <div class="container">
+    
+              <div class="form reservation-form bg-black-10">
+    
+                <form action="" class="form-left">
+    
+                  <h2 class="headline-1 text-center">Prenotazione Online</h2>
+    
+                  <p class="form-text text-center">
+                    Richiesta di prenotazione <a href="tel:+393394644817" class="link">+39-339-464-4817</a>
+                    oppure compilare il modulo d'ordine.
+                  </p>
+    
+                  <div class="input-wrapper">
+                    <input type="text" name="nome e cognome" placeholder="Nome e Cognome" autocomplete="off" class="input-field">
+    
+                    <input type="tel" name="telefono" placeholder="Numero di telefono" autocomplete="off" class="input-field">
+                  </div>
+    
+                  <div class="input-wrapper">
+    
+                    <div class="icon-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+    
+                      <select name="person" class="input-field">
+                        <option value="1-persona">1 Persona</option>
+                        <option value="2-persona">2 Persona</option>
+                        <option value="3-persona">3 Persona</option>
+                        <option value="4-persona">4 Persona</option>
+                        <option value="5-persona">5 Persona</option>
+                        <option value="6-persona">6 Persona</option>
+                        <option value="7-persona">7 Persona</option>
+                      </select>
+    
+                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                    </div>
+    
+                    <div class="icon-wrapper">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+    
+                      <input type="date" name="reservation-date" class="input-field">
+    
+                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                    </div>
+    
+                    <div class="icon-wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+    
+                      <select name="person" class="input-field">
+                        <option value="08:00">08 : 00 </option>
+                        <option value="09:00">09 : 00 </option>
+                        <option value="010:00">10 : 00 </option>
+                        <option value="011:00">11 : 00 </option>
+                        <option value="012:00">12 : 00 </option>
+                        <option value="13:00">13 : 00 </option>
+                        <option value="14:00">14 : 00 </option>
+                        <option value="15:00">15 : 00 </option>
+                        <option value="16:00">16 : 00 </option>
+                        <option value="17:00">17 : 00 </option>
+                        <option value="18:00">18 : 00 </option>
+                        <option value="19:00">19 : 00 </option>
+                        <option value="20:00">20 : 00 </option>
+                        <option value="21:00">21 : 00 </option>
+                        <option value="22:00">22 : 00 </option>
+                      </select>
+    
+                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                    </div>
+    
+                  </div>
+    
+                  <textarea name="Messaggio" placeholder="Messaggio" autocomplete="off" class="input-field"></textarea>
+    
+                  <button type="submit" class="btn btn-secondary">
+                    <span class="text text-1">Prenota il tavolo</span>
+    
+                    <span class="text text-2" aria-hidden="true">Prenota il tavolo</span>
+                  </button>
+    
+                </form>
+    
+                <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+    
+                  <h2 class="headline-1 text-center">Contattaci</h2>
+    
+                  <p class="contact-label">Richiesta di prenotazione</p>
+    
+                  <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+39-339-464-4817</a>
+    
+                  <div class="separator"></div>
+    
+                  <p class="contact-label">Location</p>
+    
+                  <address class="body-4">
+                    Via Giuseppe Di Vittorio, Terni 05100, <br>
+                    Umbria, IT
+                  </address>
+    
+                  <p class="contact-label">Pranzo</p>
+    
+                  <p class="body-4">
+                    Da Lunedì a Domenica<br>
+                    13.00 - 17:00
+                  </p>
+    
+                  <p class="contact-label">Cena</p>
+    
+                  <p class="body-4">
+                    Da Lunedì a Domenica<br>
+                    19.00 - 00.00
+                  </p>
+    
+                </div>
+    
+              </div>
+    
+            </div>
+          </section>
+    
+           <!--EVENT-->
+
+      <section style="padding-bottom: 150px; padding-top: 150px;" class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">AGGIORNAMENTI RECENTI</p>
+
+          <h2 class="section-title headline-1 text-center">Prossimi Eventi</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">31/10/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Orrorifiche Delizie</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Offre una selezione incantata di piatti ispirati all'atmosfera magica di Halloween.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">25/12/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Festosi Sapori Natalizi</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Offre una selezione di piatti festivi che catturano l'essenza del Natale.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">31/12/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Cucina d'Anno Nuovo</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Piatti che celebrano l'arrivo dell'anno nuovo con gusti festosi e scintillanti.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">VEDI IL NOSTRO BLOG</span>
+
+            <span class="text text-2" aria-hidden="true">VEDI IL NOSTRO BLOG</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+      <!--FOOTER-->
+    
+      <footer class="footer section has-bg-image text-center"
+        style="background-image: url('./assets/images/footer-bg.jpg')">
+        <div class="container">
+    
+          <div class="footer-top grid-list">
+    
+            <div class="footer-brand has-before has-after">
+    
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="160" height="50" loading="lazy" alt="Angeletti home">
+              </a>
+    
+              <address class="body-4">
+                Via Giuseppe Di Vittorio, Terni 05100, Umbria, IT
+              </address>
+    
+              <a href="mailto:luca.angeletti@ittterni.org" class="body-4 contact-link">luca.angeletti@ittterni.org</a>
+    
+              <a href="tel:+88123123456" class="body-4 contact-link">Richiesta di Prenotazione : +39-339-464-4817</a>
+    
+              <p class="body-4">
+                Aperta : 09:00 - 12:00 
+              </p>
+    
+              <div class="wrapper">
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <div class="separator"></div>
+              </div>
+    
+              <p class="title-1">Ricevi Notizie & Offerte</p>
+    
+              <p class="label-1">
+                Iscriviti e OTTERRAI il <span class="span">25% </span> di <span class="span">SCONTO.</span>
+              </p>
+    
+              <form action="" class="input-wrapper">
+                <div class="icon-wrapper">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+    
+                  <input type="email" name="email_address" placeholder="Email" autocomplete="off" class="input-field">
+                </div>
+    
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">ISCRIVITI</span>
+    
+                  <span class="text text-2" aria-hidden="true">ISCRIVITI</span>
+                </button>
+              </form>
+    
+            </div>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+              </li>
+    
+              <li>
+                <a href="index_menu.html" class="label-2 footer-link hover-underline">Menu</a>
+              </li>
+    
+              <li>
+                <a href="index_chisiamo.html" class="label-2 footer-link hover-underline">CHI SIAMO?</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+
+              <li>
+                <a href="https://www.instagram.com/zyr0___/" class="label-2 footer-link hover-underline">Instagram</a>
+              </li>
+
+              <li>
+                <a href="https://www.google.it/maps/place/Via+Giuseppe+di+Vittorio,+87,+05100+Terni+TR/@42.5528298,12.6412439,19z/data=!3m1!4b1!4m6!3m5!1s0x132efb5fa84d0f2f:0x4bd6fb3ee9a95ccf!8m2!3d42.5528288!4d12.6418876!16s%2Fg%2F11csdm6h2m?entry=ttu" class="label-2 footer-link hover-underline">Google Maps</a>
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+          <div class="footer-bottom">
+    
+            <p class="copyright">
+             <p class="copyright"> &copy; 2023 Angeletti. Tutti i diritti sono riservati.</p>
+               <p class="copyright">Tutti i testi, le immagini e il contenuto multimediale presenti su questo sito web sono di proprietà esclusiva del “Angeletti’s Restaurant”,
+                  a meno che non sia diversamente specificato.
+                  È vietata la riproduzione, la distribuzione o la modifica di qualsiasi materiale presente su questo sito senza il consenso esplicito del Ristorante “Angeletti’s Restaurant”.
+                  Tutti i marchi, i loghi e i marchi di servizio sono di proprietà dei rispettivi titolari e vengono utilizzati con il permesso dei proprietari.
+                  Qualsiasi controversia legale derivante dall'uso di questo sito è soggetta alle leggi dello Stato in cui ha sede il Ristorante 'Angeletti’s Restaurant', 
+                  e ogni parte accetta la giurisdizione esclusiva dei tribunali di tale giurisdizione.</p>
+            </p>
+    
+          </div>
+    
+        </div>
+      </footer>
+    
+      <!--BACK TO TOP-->
+    
+      <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+      </a>
+    
+    
+    <script src="./assets/js/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

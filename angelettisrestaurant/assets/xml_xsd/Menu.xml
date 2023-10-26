@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Menux.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<Menu>
+
+    <Antipasti>
+
+        <Antipasto IDA="a001">
+            <nome>Melodia Mediterranea</nome>
+            <descrizione>Burrata, Prosciutto di Parma, Pomodori, Basilico, Pepe Nero e Aceto Balsamico.</descrizione>
+            <prezzo>€25.00</prezzo>
+        </Antipasto>
+
+        <Antipasto IDA="a002">
+            <nome>Terre d'Eccellenza</nome>
+            <descrizione>Manzo Crudo Marinato, Olio di Trtufo, Scaglie di Parmigiano e Pepe Nero</descrizione>
+            <prezzo>€45.00</prezzo>
+        </Antipasto>
+
+        <Antipasto IDA="a003">
+            <nome>Profumo Marino</nome>
+            <descrizione>Gamberi Cotti, Salsa all'Aglio e Limone e Erbe Fresche.</descrizione>
+            <prezzo>€40.00</prezzo>
+        </Antipasto>
+
+        <Antipasto IDA="a004">
+            <nome>Delizia d'Inverno</nome>
+            <descrizione>Crostini di Pane con Fegato di Anatra o Oca e Marmellata di Cipolle dolce.</descrizione>
+            <prezzo>€50.00</prezzo>
+        </Antipasto>
+
+        <Antipasto IDA="a005">
+            <nome>Magia d'Onda</nome>
+            <descrizione>Zuppetta con Cozze e Vongole, Erbe Fresche e Spezie Aromatiche, Prezzemolo e Olio.</descrizione>
+            <prezzo>€30.00</prezzo>
+        </Antipasto>
+
+        
+        <Antipasto IDA="a006">
+            <nome>Rinascita Autunnale</nome>
+            <descrizione>Uovo in Camicia accompagnato da Crema di Porcini, Cialda al Burro e Crostini leggeri al Tartufo</descrizione>
+            <prezzo>€35.00</prezzo>
+        </Antipasto>
+
+    </Antipasti>  
+    
+    <Primi>
+
+        <Primo IDP="p001">
+            <nome>Onda d'Oro</nome>
+            <descrizione>Risotto, Frutti di mare come Gamberi, Cozze e Calamari aromatizzati allo Zafferano.</descrizione>
+            <prezzo>€70.00</prezzo>
+        </Primo>
+
+        <Primo IDP="p002">
+            <nome>Dolce Abbraccio Autunnale</nome>
+            <descrizione>Tortellini con Zucca, Salsa al Burro e alla Salvia, Scaglie di Parmigiano e Spolverata di Noce Moscata</descrizione>
+            <prezzo>€40.00</prezzo>
+        </Primo>
+
+        <Primo IDP="p003">
+            <nome>Ricordi d'Italia</nome>
+            <descrizione>Bucatini all'Amatriciana, Guanciale, Salsa di Pomodori, Peperoncino e Pecorino Romano DOP.</descrizione>
+            <prezzo>€30.00</prezzo>
+        </Primo>
+
+        <Primo IDP="p004">
+            <nome>Trionfo Viola</nome>
+            <descrizione>Gnocchi con Patate Viola e Salsa Delicata al Tartufo Nero.</descrizione>
+            <prezzo>€45.00</prezzo>
+        </Primo>
+
+        <Primo IDP="p005">
+            <nome>Semplice Eleganza</nome>
+            <descrizione>Fagottini di Pasta ripieni di Ricotta, Spinaci e Scaglie di Pecorino.</descrizione>
+            <prezzo>€40.00</prezzo>
+        </Primo>
+
+        <Primo IDP="p006">
+            <nome>Vele di Mare</nome>
+            <descrizione>Linguine, Vongole, Aglio Tostato, Peperoncino e Prezzemolo.</descrizione>
+            <prezzo>€55.00</prezzo>
+        </Primo>
+
+    </Primi>
+
+    <Secondi>
+
+        <Secondo IDS="s001">
+            <nome>Estasi di Wagyu</nome>
+            <descrizione>Filetto di Manzo Wagyu, accompagnato da una Riduzione di Vino Rosso, Erbe Aromatiche e Contorni di Verdure di Stagione.</descrizione>
+            <prezzo>€110.00</prezzo>
+        </Secondo>
+
+        <Secondo IDS="s002">
+            <nome>Arcobaleno di Gusti</nome>
+            <descrizione> Costoletta d'Agnello marinata, servita con Salsa di Menta e Piselli, accompagnata da un Pure di Patate e Verdure al Vapore.</descrizione>
+            <prezzo>€85.00</prezzo>
+        </Secondo>
+
+        <Secondo IDS="s003">
+            <nome>Danze del Bosco</nome>
+            <descrizione>Filetto di Salmone Selvaggio, ricoperto di una Crosta di Pistacchi Tritati, servito con Salsa al Burro e Limone, Asparagi Grigliati e Riso.</descrizione>
+            <prezzo>€60.00</prezzo>
+        </Secondo>
+
+        <Secondo IDS="s004">
+            <nome>Canto d'Arancia e Zenzero</nome>
+            <descrizione>Petto d'Anatra, glassato con Salsa Agrodolce all'Arancia e Zenzero e servito con Verdure Fresche di Stagione.</descrizione>
+            <prezzo>€70.00</prezzo>
+        </Secondo>
+
+    </Secondi>
+
+    <Contorni>
+
+        <Contorno IDC="c001">
+            <nome>Vellutata Alchimia</nome>
+            <descrizione>Purè di Patate, con Burro e Tartufo Grattugiato.</descrizione>
+            <prezzo>€50.00</prezzo>
+        </Contorno>
+
+        <Contorno IDC="c002">
+            <nome>Rugiada di Campagna al Forno</nome>
+            <descrizione>Verdure di Stagione, come Carote, Patate, Zucchine e Peperoni con Erbe Aromatiche e Olio d'0liva.</descrizione>
+            <prezzo>€30.00</prezzo>
+        </Contorno>
+
+        <Contorno IDC="c003">
+            <nome>Crisalide di Giardino</nome>
+            <descrizione>Insalata con Ingredienti Freschi di Stagione, come Lattuga, Radicchio, Pomodori e Cetrioli servita con una vinaigrette.</descrizione>
+            <prezzo>€20.00</prezzo>
+        </Contorno>
+
+    </Contorni>
+
+    <Dolci>
+
+        <Dolce IDD="d001">
+            <nome>Crepuscolo di Cioccolato con Dolce Abbraccio alla Vaniglia</nome>
+            <descrizione>Soufflé al Cioccolato con Gelato alla Vaniglia.</descrizione>
+            <prezzo>€15.00</prezzo>
+        </Dolce>
+
+        <Dolce IDD="d002">
+            <nome>Eleganza Boscosa</nome>
+            <descrizione>Panna Cotta alla Vaniglia con Frutti di Bosco e Coulis di Lamponi.</descrizione>
+            <prezzo>€20.00</prezzo>
+        </Dolce>
+
+        <Dolce IDD="d003">
+            <nome>Cremoso Limone Danzante</nome>
+            <descrizione>Cheesecake al Limone con Salsa ai Frutti di Bosco.</descrizione>
+            <prezzo>€12.00</prezzo>
+        </Dolce>
+
+        <Dolce IDD="d004">
+            <nome>Sogno al Caffè con Effetto Cioccolato</nome>
+            <descrizione>Tiramisù rivisitato con Salsa al Caffè e Scaglie di Cioccolato.</descrizione>
+            <prezzo>€15.00</prezzo>
+        </Dolce>
+
+        <Dolce IDD="d005">
+            <nome>Fresca Fantasia Gelata</nome>
+            <descrizione>Gelato Artigianale in vari gusti con Frutta Fresca e Salsa al Cioccolato.</descrizione>
+            <prezzo>€10.00</prezzo>
+        </Dolce>
+
+    </Dolci>
+
+    <Bevande>
+
+        <Bevanda IDB="b001">
+            <nome>Acqua Naturale</nome>
+            <descrizione>Bottiglia d'Acqua Naturale in Vetro da 1.5 l.</descrizione>
+            <prezzo>€7.00</prezzo>
+        </Bevanda>
+
+        <Bevanda IDB="b002">
+            <nome>Acqua Frizzante</nome>
+            <descrizione>Bottiglia d'Acqua Frizzante in Vetro da 1.5 l.</descrizione>
+            <prezzo>€7.00</prezzo>
+        </Bevanda>
+
+        <Bevanda IDB="b003">
+            <nome>Coca-Cola</nome>
+            <descrizione>Bottiglia di Coca-Cola in Vetro da 330 ml.</descrizione>
+            <prezzo>€5.00</prezzo>
+        </Bevanda>
+
+        <Bevanda IDB="b004">
+            <nome>Estathé al Limone</nome>
+            <descrizione>Bottiglia d'Estathé al Limone in Vetro da 250 ml.</descrizione>
+            <prezzo>€5.00</prezzo>
+        </Bevanda>
+
+        <Bevanda IDB="b005">
+            <nome>Estathé alla Pesca</nome>
+            <descrizione>Bottiglia d'Estathé alla Pesca in Vetro da 250 ml.</descrizione>
+            <prezzo>€5.00</prezzo>
+        </Bevanda>
+
+        <Bevanda IDB="b006">
+            <nome>Fanta</nome>
+            <descrizione>Bottiglia di Fanta in Vetro da 1 l.</descrizione>
+            <prezzo>€10.00</prezzo>
+        </Bevanda>
+
+        <Bevanda IDB="b007">
+            <nome>Sprite</nome>
+            <descrizione>Bottiglia di Sprite in Vetro da 330 ml.</descrizione>
+            <prezzo>€5.00</prezzo>
+        </Bevanda>
+
+    </Bevande>
+
+    <Vini>
+
+        <Vino IDV="v001">
+            <nome>Barolo</nome>
+            <descrizione>Vino Rosso Italiano da 1.5 l, del Piemonte, noto per i suoi Tannini Forti e il Gusto Intenso di Frutta Rossa e Spezie.</descrizione>
+            <prezzo>€480.00</prezzo>
+        </Vino>
+
+        <Vino IDV="v002"> 
+            <nome>Chardonnay</nome>
+            <descrizione>Vino Bianco da 1.5 l con note di Burro e Vaniglia, prodotto in molte regioni vinicole in tutto il mondo, come nella Borgogna, in California e in Australia.</descrizione>
+            <prezzo>€130.00</prezzo>
+        </Vino>
+
+        <Vino IDV="v003">
+            <nome>Riesling</nome>
+            <descrizione>Vino Bianco da 1.5 l Originario della Germania, noto per il suo bilanciamento di Acidità e Dolcezza, con aromi fruttati e floreali.</descrizione>
+            <prezzo>€80.00</prezzo>
+        </Vino>
+
+        <Vino IDV="v004">
+            <nome>Cabernet Sauvignon</nome>
+            <descrizione>Un vino Rosso da 1.5 l, spesso con note di Frutta Nera, Erbe e Spezie. È ampiamente coltivato in regioni di tutto il mondo, come in Francia, California, Cile e Australia.</descrizione>
+            <prezzo>€60.00</prezzo>
+        </Vino>
+
+        <Vino IDV="v005">
+            <nome>Pinot Noir</nome>
+            <descrizione>Un Vino Rosso da 1.5 l, noto per la sua Complessità e Delicatezza, con note di Frutta Rossa, Terra e Spezie. In genere proviene dalla Borgogna in Francia, ma viene coltivato anche in Oregon e in Nuova Zelanda.</descrizione>
+            <prezzo>€155.00</prezzo>
+        </Vino>
+
+    </Vini>
+
+    <Drinks>
+
+        <Drink IDR="r001">
+            <nome>Martini Espresso</nome>
+            <descrizione>Una variante del classico Martini che unisce Vodka, Liquore al Caffè e una dose di Espresso Fresco.</descrizione>
+            <prezzo>€17.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r002">
+            <nome>French 75</nome>
+            <descrizione> Un mix rinfrescante di Gin, Succo di Limone, Sciroppo di Zucchero e Champagne, servito con una Scorza di Limone.</descrizione>
+            <prezzo>€40.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r003">
+            <nome>Negroni Sbagliato</nome>
+            <descrizione>Una variante del Negroni tradizionale che sostituisce il Gin con il Prosecco, offrendo un sapore leggermente più Frizzante.</descrizione>
+            <prezzo>€18.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r004">
+            <nome>Mojito di Fragole</nome>
+            <descrizione>Un twist estivo al classico Mojito, con l'aggiunta di Fragole Fresche per un tocco Dolce e Rinfrescante.</descrizione>
+            <prezzo>€12.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r005">
+            <nome>Margarita al Peperoncino</nome>
+            <descrizione>Una versione Piccante della Margarita Tradizionale che incorpora Peperoncino Fresco o Sciroppo di Peperoncino per un Kick Extra.</descrizione>
+            <prezzo>€15.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r006">
+            <nome>Old Fashioned al Miele</nome>
+            <descrizione>Una variante del classico Old Fashioned che utilizza Sciroppo di Miele al posto dello Zucchero per un Sapore più Morbido e Aromatico.</descrizione>
+            <prezzo>€30.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r007">
+            <nome>Gin Fizz al Lampone</nome>
+            <descrizione> Una Bevanda Frizzante a base di Gin, Suucco di Limone, Sciroppo di Lampone e Acqua Frizzante, perfetta per un tocco Fruttato e Rinfrescante.</descrizione>
+            <prezzo>€20.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r008">
+            <nome>Manhattan Affumicato</nome>
+            <descrizione> Una variante del Manhattan Tradizionale che utilizza Scotch Affumicato invece del Whisky Classico, per un Sapore Intenso e Robusto.</descrizione>
+            <prezzo>€36.00</prezzo>
+        </Drink>
+
+        <Drink IDR="r009">
+            <nome>Dark and Stormy</nome>
+            <descrizione> Un mix di Rum Scuro e Ginger Beer, servito con una Fetta di Lime per un equilibrio perfetto tra Dolce e Piccante.</descrizione>
+            <prezzo>€22.00</prezzo>
+        </Drink>
+
+    </Drinks>
+    
+</Menu>

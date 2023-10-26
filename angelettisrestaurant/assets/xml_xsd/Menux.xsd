@@ -1,0 +1,251 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Menu">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Antipasti">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Antipasto" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL NOME NON PUO AVERE NUMERI-->
+                                                <xs:pattern value="[^0-9]*"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDA" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Primi">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Primo" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL NOME NON PUO AVERE NUMERI-->
+                                                <xs:pattern value="[^0-9]*"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDP" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Secondi">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Secondo" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL NOME NON PUO AVERE NUMERI-->
+                                                <xs:pattern value="[^0-9]*"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDS" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Contorni">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Contorno" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL NOME NON PUO AVERE NUMERI-->
+                                                <xs:pattern value="[^0-9]*"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDC" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Dolci">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Dolce" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL NOME NON PUO AVERE NUMERI-->
+                                                <xs:pattern value="[^0-9]*"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDD" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Bevande">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Bevanda" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL NOME NON PUO AVERE NUMERI-->
+                                                <xs:pattern value="[^0-9]*"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDB" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Vini">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Vino" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nome">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL NOME NON PUO AVERE NUMERI-->
+                                                <xs:pattern value="[^0-9]*"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDV" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="Drinks">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Drink" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <!-- IN QUESTO CASO TUTTI I NOMI DEI DRINK POSSONO AVERE DEI NUMERI ESSENDO CHE E' PIU COMUNE TROVARE DRINK CON I NUMERI, ESEMPIO DEL CODICE XML: <nome>French 75</nome>-->
+                                    <xs:element name="nome" type="xs:string"/>
+                                    <xs:element name="descrizione" type="xs:string"/>
+                                    <xs:element name="prezzo">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <!-- IL PREZZO HA UNA PROPRIA SINTASSI, E' OBBLIGATORIO "€" POSTO DAVANTI A TUTTO, MASSIMO 3 CIFRE PRIMA DEL PUNTO E MASSIMO DUE CIFRE DOPO IL PUNTO; ES. €XXX.XX  -->
+                                                <xs:pattern value="€\d{1,4}(,\d{3})*(\.\d{2})?"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDR" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
